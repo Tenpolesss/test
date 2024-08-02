@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Selamat</title>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/Tenpolesss/st-dab-laman/main/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Barakallah fii umrik Peni</h1>
+        <audio id="backgroundMusic" src="https://github.com/Tenpolesss/squidward-lagu-ultah/raw/25af92fe18a459f1da5291d872a8935ceb71cea6/slamatultah.mp3" loop></audio>
+        <button class="btn-play" onclick="playMusic()">
+            <i class="fas fa-play"></i>
+            <span>Play</span>
+			</button>
+        
+         <div class="polaroid-container">
+            <div class="polaroid">
+                <img src="https://github.com/Tenpolesss/coba/blob/main/peni3.jpeg?raw=true" alt="Foto 1">
+                <p class="caption">Selamat ulang tahun! Semoga semua mimpi menjadi kenyataan!</p>
+            </div>
+            <div class="polaroid">
+                <img src="https://github.com/Tenpolesss/coba/blob/main/peni2.jpeg?raw=true" alt="Foto 2">
+                <p class="caption">Hari yang indah untuk orang yang luar biasa. <br>Selamat ulang tahun!</p>
+            </div>
+            <div class="polaroid">
+                <img src="https://github.com/Tenpolesss/coba/blob/main/peni.jpeg?raw=true" alt="Foto 3">
+                <p class="caption">Semoga harimu penuh kebahagiaan dan cinta!<br>kapan nikah? udah 24 loh <br>sama aku kan? 🥰</p>
+            </div>
+            <div class="polaroid">
+                <img src="https://github.com/Tenpolesss/coba/blob/main/peni4.jpeg?raw=true" alt="Foto 4">
+                <p class="caption">Selamat ulang tahun! Semoga selalu sehat dan bahagia! <br>bersamaku😅😘</p>
+            </div>
+            <div class="polaroid">
+                <img src="https://github.com/Tenpolesss/coba/blob/main/peni5.jpeg?raw=true" alt="Foto 5">
+                <p class="caption">Hari ini adalah hari spesial untukmu. Selamat ulang tahun!</p>
+            </div>
+        </div>
+      
+        <button class="btn" onclick="goBack()">Kembali</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function playMusic() {
+            const music = document.getElementById('backgroundMusic');
+            music.play();
+        }
+    </script>
+</body>
+</html>
